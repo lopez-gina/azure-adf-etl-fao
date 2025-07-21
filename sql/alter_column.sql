@@ -1,0 +1,2 @@
+ALTER TABLE CropProduction
+ALTER COLUMN Item NVARCHAR(255);
