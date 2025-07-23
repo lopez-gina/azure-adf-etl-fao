@@ -6,7 +6,7 @@ This project demonstrates a complete **ETL pipeline using Azure Data Factory**, 
   <img src="screenshots/etl_pipeline_graph.png" alt="ETL Pipeline Diagram" width="600">
 </p>
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - **Azure Data Factory**
 - **Azure Blob Storage**
@@ -15,7 +15,7 @@ This project demonstrates a complete **ETL pipeline using Azure Data Factory**, 
 - **SQL**
 - **Power BI for dashboarding** (not included yet)
 
-## 🔄 ETL Pipeline Overview
+## ETL Pipeline Overview
 
 1. **Extract**  
    The FAOSTAT CSV file containing crop data (area harvested, production, etc.) is uploaded to Azure Blob Storage.
@@ -28,35 +28,26 @@ This project demonstrates a complete **ETL pipeline using Azure Data Factory**, 
 
 ## Project Structure
 
-    ├── dataset/
-        │ ├── faostat_crop_data_sample.csv # Light sample version 
-    ├── arm_templates/
-        │ ├── ARMTemplateForFactory.json # Main pipeline template
-        │ └── ARMTemplateParametersForFactory.json
-    ├── sql/
-        │ ├── create_crop_table.sql # Initial table schema
-        │ └── alter_column.sql # Adjustments for wide text fields
-    ├── screenshots/
-        │ └── etl_pipeline_graph.png # Architecture diagram
-    └── README.md
+    -dataset/
+        -faostat_crop_data_sample.csv # Light sample version 
+    -arm_templates/
+        -ARMTemplateForFactory.json # Main pipeline template
+        -ARMTemplateParametersForFactory.json
+    -sql/
+        -create_crop_table.sql # Initial table schema
+        -alter_column.sql # Adjustments for wide text fields
+    -screenshots/
+        -etl_pipeline_graph.png # Architecture diagram
+    -README.md
 
 
-## 🧠 Key Learnings
 
-- Deploying real ETL pipelines using Azure services
-- Handling data transformation and schema mapping from external sources
-- Optimizing SQL schema for large and variable-length text data
-- Cleaning Git histories and working with large datasets in GitHub
 
-## 📈 Next Steps
+## Author
 
-- Add Power BI visualizations using the SQL data
-- Automate file uploads with Azure Logic Apps or Event Triggers
+👩‍💻 Gina Lopez  
+IT Graduate | Agricultural Scientist | Data Engineer
 
-## 👩‍💻 About Me
+## Objective of the project
 
-I'm **Gina Lopez**, a PhD researcher in Agricultural Sciences with a strong IT foundation. This project is part of my transition into data engineering and cloud solutions, combining my research background with modern data tools.
-
-## 🗃️ License
-
-Open for learning and demonstration purposes.
+Demonstration purposes.
